@@ -21,19 +21,21 @@ class APIClient {
 
     public static Retrofit getClient() {
 
-        HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
-        interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
+        if (retrofit == null) {
+            HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
+            interceptor.setLevel(HttpLoggingInterceptor.Level.BASIC);
+            OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
 
-        GsonBuilder builder = new GsonBuilder();
-        builder.registerTypeAdapter(Date.class, (JsonDeserializer<Date>) (json, typeOfT, context) -> new Date(json.getAsJsonPrimitive().getAsLong()));
+            GsonBuilder builder = new GsonBuilder();
+            builder.registerTypeAdapter(Date.class, (JsonDeserializer<Date>) (json, typeOfT, context) -> new Date(json.getAsJsonPrimitive().getAsLong()));
 
-        retrofit = new Retrofit.Builder()
-                .baseUrl(BuildConfig.API_URL)
-                .addConverterFactory(GsonConverterFactory.create(builder.create()))
-                .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(Schedulers.io()))
-                .client(client)
-                .build();
+            retrofit = new Retrofit.Builder()
+                    .baseUrl(BuildConfig.API_URL)
+                    .addConverterFactory(GsonConverterFactory.create(builder.create()))
+                    .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(Schedulers.io()))
+                    .client(client)
+                    .build();
+        }
 
         return retrofit;
     }

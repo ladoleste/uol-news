@@ -16,17 +16,23 @@ public class MainViewModel extends ViewModel {
 
     private Disposable subscribe;
 
-    private MutableLiveData<List<Feed>> _news = new MutableLiveData<>();
-    public LiveData<List<Feed>> news = _news;
+    private MutableLiveData<List<Feed>> news = new MutableLiveData<>();
 
-    private MutableLiveData<Throwable> _error = new MutableLiveData<>();
-    public LiveData<Throwable> error = _error;
+    private MutableLiveData<Throwable> error = new MutableLiveData<>();
+
+    public LiveData<List<Feed>> getNews() {
+        return news;
+    }
+
+    public LiveData<Throwable> getError() {
+        return error;
+    }
 
     public void loadList() {
 
         subscribe = APIClient.getClient().create(RetrofitService.class).loadList()
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(x -> _news.postValue(x.getFeed()), t -> _error.postValue(t));
+                .subscribe(x -> news.postValue(x.getFeed()), t -> error.postValue(t));
     }
 
     public void dispose() {

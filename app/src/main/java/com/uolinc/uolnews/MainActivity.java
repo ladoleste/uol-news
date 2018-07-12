@@ -9,36 +9,47 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.TextView;
 
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private MainViewModel vModel;
+    private View rootView;
+    private TextView tvTitle;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+
+        init();
+
         setSupportActionBar(toolbar);
-        vModel = ViewModelProviders.of(this).get(MainViewModel.class);
-
         FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(view -> Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show());
+        fab.setOnClickListener(view -> vModel.loadList());
 
-        vModel.news.observe(this, this::loadFeed);
-        vModel.error.observe(this, this::handleError);
+        vModel.getNews().observe(this, this::loadFeed);
+        vModel.getError().observe(this, this::handleError);
+    }
+
+    private void init() {
+        toolbar = findViewById(R.id.toolbar);
+        rootView = findViewById(R.id.root_view);
+        tvTitle = findViewById(R.id.tv_title);
+        vModel = ViewModelProviders.of(this).get(MainViewModel.class);
     }
 
     private void handleError(Throwable t) {
         Log.e("UolNews", t.getMessage(), t);
+        Snackbar.make(rootView, R.string.generic_error, Snackbar.LENGTH_LONG).setAction(R.string.retry, null).show();
     }
 
     private void loadFeed(List<Feed> feeds) {
-        Toast.makeText(this, feeds.get(0).getTitle(), Toast.LENGTH_SHORT).show();
+        tvTitle.setText(feeds.get(0).getTitle());
     }
 
     @Override
@@ -49,20 +60,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_reload) {
+            vModel.loadList();
             return true;
         }
 
