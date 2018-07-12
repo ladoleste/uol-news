@@ -2,7 +2,6 @@ package com.uolinc.uolnews;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -30,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
         init();
 
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(view -> vModel.loadList());
 
         vModel.getNews().observe(this, this::loadFeed);
         vModel.getError().observe(this, this::handleError);
