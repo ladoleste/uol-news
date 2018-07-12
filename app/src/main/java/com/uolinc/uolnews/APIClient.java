@@ -1,9 +1,14 @@
 package com.uolinc.uolnews;
 
+import android.util.Log;
+
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializer;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 import io.reactivex.schedulers.Schedulers;
 import okhttp3.OkHttpClient;
@@ -27,7 +32,18 @@ class APIClient {
             OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
 
             GsonBuilder builder = new GsonBuilder();
-            builder.registerTypeAdapter(Date.class, (JsonDeserializer<Date>) (json, typeOfT, context) -> new Date(json.getAsJsonPrimitive().getAsLong()));
+            builder.registerTypeAdapter(Date.class, (JsonDeserializer<Date>) (json, typeOfT, context) -> {
+
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddhhmmss", Locale.getDefault());
+
+                try {
+                    return formatter.parse(json.getAsJsonPrimitive().getAsString());
+                } catch (ParseException e) {
+                    Log.e("UOLNews", e.getMessage(), e);
+                    return new Date();
+                }
+
+            });
 
             retrofit = new Retrofit.Builder()
                     .baseUrl(BuildConfig.API_URL)
