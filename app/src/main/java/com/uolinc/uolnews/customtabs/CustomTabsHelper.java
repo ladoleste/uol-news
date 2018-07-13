@@ -14,6 +14,7 @@ import android.support.customtabs.CustomTabsSession;
 /**
  * An adaptation of the official sample
  */
+@SuppressWarnings("unused")
 public final class CustomTabsHelper {
 
     private CustomTabsSession customTabsSession;

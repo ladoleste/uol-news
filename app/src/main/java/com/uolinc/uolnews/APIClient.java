@@ -1,5 +1,6 @@
 package com.uolinc.uolnews;
 
+import android.annotation.SuppressLint;
 import android.util.Log;
 
 import com.google.gson.GsonBuilder;
@@ -20,6 +21,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 /**
  * Created by Anderson on 11/07/2018.
  */
+@SuppressLint("LogNotTimber")
 class APIClient {
 
     private static Retrofit retrofit = null;
@@ -40,7 +42,7 @@ class APIClient {
                     return formatter.parse(json.getAsJsonPrimitive().getAsString());
                 } catch (ParseException e) {
                     Log.e("UOLNews", e.getMessage(), e);
-                    return new Date();
+                    return null;
                 }
 
             });
