@@ -29,6 +29,8 @@ import java.util.List;
 @SuppressLint("LogNotTimber")
 public class MainActivity extends AppCompatActivity implements ItemClick {
 
+    private static final String TAG = "MainActivity";
+
     private MainViewModel vModel;
     private View rootView;
     private RecyclerView rvList;
@@ -69,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
     }
 
     private void handleError(Throwable t) {
-        Log.e("UOLNews", t.getMessage(), t);
+        Log.e(TAG, t.getMessage(), t);
         Snackbar.make(rootView, R.string.generic_error, Snackbar.LENGTH_LONG).setAction(R.string.retry, v -> vModel.loadList()).show();
         rvList.setVisibility(View.GONE);
         ivNoConnection.setVisibility(View.VISIBLE);

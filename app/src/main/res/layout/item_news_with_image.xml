@@ -46,7 +46,7 @@
                 android:layout_marginTop="4dp"
                 android:textColor="#FFF"
                 android:textStyle="bold"
-                tools:text="Jogador de futebol abandona carreira para virar programador" />
+                tools:text="Jogador de futebol larga carreira e vira spec na UOL" />
 
         </LinearLayout>
 

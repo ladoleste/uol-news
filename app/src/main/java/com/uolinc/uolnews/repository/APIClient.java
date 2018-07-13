@@ -5,7 +5,7 @@ import android.util.Log;
 
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializer;
-import com.uolinc.uolnews.BuildConfig;
+import com.uolinc.uolnews.global.UolApplication;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -26,6 +26,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class APIClient {
 
     private static Retrofit retrofit = null;
+    private static final String TAG = "APIClient";
 
     public static Retrofit getClient() {
 
@@ -42,14 +43,14 @@ public class APIClient {
                 try {
                     return formatter.parse(json.getAsJsonPrimitive().getAsString());
                 } catch (ParseException e) {
-                    Log.e("UOLNews", e.getMessage(), e);
+                    Log.e(TAG, e.getMessage(), e);
                     return null;
                 }
 
             });
 
             retrofit = new Retrofit.Builder()
-                    .baseUrl(BuildConfig.API_URL)
+                    .baseUrl(UolApplication.apiUrl)
                     .addConverterFactory(GsonConverterFactory.create(builder.create()))
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(Schedulers.io()))
                     .client(client)
