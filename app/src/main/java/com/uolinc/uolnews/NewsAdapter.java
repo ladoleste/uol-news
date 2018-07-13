@@ -17,9 +17,11 @@ import java.util.Locale;
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder> {
 
     private List<Feed> feeds;
+    private ItemClick onItemClick;
 
-    NewsAdapter(List<Feed> feeds) {
+    NewsAdapter(List<Feed> feeds, ItemClick onItemClick) {
         this.feeds = feeds;
+        this.onItemClick = onItemClick;
     }
 
     @NonNull
@@ -43,6 +45,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
 
         holder.tvTitle.setText(feed.getTitle());
         holder.tvUpdate.setText(format);
+        holder.itemView.setOnClickListener(v -> onItemClick.onItemClick(feed.getWebviewUrl()));
         if (getItemViewType(position) == 1) {
             Glide.with(holder.itemView.getContext()).load(feed.getThumb()).into(holder.ivImage);
         }
