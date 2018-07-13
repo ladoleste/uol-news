@@ -22,6 +22,7 @@ import com.uolinc.uolnews.R;
 import com.uolinc.uolnews.customtabs.CustomTabsHelper;
 import com.uolinc.uolnews.dto.Feed;
 import com.uolinc.uolnews.global.Util;
+import com.uolinc.uolnews.ui.viewmodel.MainViewModel;
 
 import java.util.List;
 

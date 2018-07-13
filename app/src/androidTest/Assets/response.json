@@ -1,0 +1,744 @@
+{
+  "feed": [
+    {
+      "type": "news",
+      "title": "Balbuena se despede do Corinthians: 'O sangue no olho é para sempre'",
+      "thumb": "https://imguol.com/c/esporte/8a/2018/06/06/balbuena-protege-a-bola-de-rodrygo-no-classico-entre-corinthians-e-santos-1528334370813_142x100.jpg",
+      "updated": 20180713151235,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/balbuena-se-despede-do-corinthians-o-sangue-no-olho-e-para-sempre.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/balbuena-se-despede-do-corinthians-o-sangue-no-olho-e-para-sempre.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Técnico belga festeja 45 anos e crava: 'Somos melhores e venceremos'",
+      "updated": 20180713150552,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/tecnico-belga-festeja-45-anos-e-crava-somos-melhores-e-venceremos.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/tecnico-belga-festeja-45-anos-e-crava-somos-melhores-e-venceremos.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Santos dá prazo para Cittadini decidir futuro e promete 'castigo' no time B",
+      "thumb": "https://imguol.com/c/esporte/4e/2018/05/02/leo-cittadini-volante-do-santos-1525313543926_142x100.jpg",
+      "updated": 20180713150536,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/santos-da-prazo-para-cittadini-decidir-futuro-e-promete-castigo-no-time-b.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/santos-da-prazo-para-cittadini-decidir-futuro-e-promete-castigo-no-time-b.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Jogadores comemoram aniversário de 45 anos do técnico Martínez",
+      "updated": 20180713145605,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/jogadores-comemoram-aniversario-de-45-anos-do-tecnico-martinez.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/jogadores-comemoram-aniversario-de-45-anos-do-tecnico-martinez.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Quem substituirá R7 no Real? Casas de apostas bem divididas",
+      "updated": 20180713144749,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/quem-substituira-r7-no-real-casas-de-apostas-bem-divididas.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/quem-substituira-r7-no-real-casas-de-apostas-bem-divididas.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "'Queremos o terceiro lugar. Para o país e por nós' diz o belga Witsel",
+      "updated": 20180713142810,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/queremos-o-terceiro-lugar-para-o-pais-e-por-nos-diz-o-belga-witsel.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/queremos-o-terceiro-lugar-para-o-pais-e-por-nos-diz-o-belga-witsel.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Santos estreia no Brasileiro sub-20 com vitória sobre o Flamengo, no Rio",
+      "updated": 20180713140656,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/santos-estreia-no-brasileiro-sub-20-com-vitoria-sobre-o-flamengo-no-rio.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/santos-estreia-no-brasileiro-sub-20-com-vitoria-sobre-o-flamengo-no-rio.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Com Henríquez, Vasco treina e Jorginho avalia novo reforço",
+      "updated": 20180713132710,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/com-henriquez-vasco-treina-e-jorginho-avalia-novo-reforco.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/com-henriquez-vasco-treina-e-jorginho-avalia-novo-reforco.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Inter atravessa o América-MG e fica perto de acertar com Emerson Santos",
+      "updated": 20180713131901,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/inter-atravessa-o-america-mg-e-fica-perto-de-acertar-com-emerson-santos.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/inter-atravessa-o-america-mg-e-fica-perto-de-acertar-com-emerson-santos.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Rakitic revela emoção pela Croácia na final e torcida por Djokovic",
+      "updated": 20180713131328,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/rakitic-revela-emocao-pela-croacia-na-final-e-torcida-por-djokovic.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/rakitic-revela-emocao-pela-croacia-na-final-e-torcida-por-djokovic.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Juventude conta com o retorno de seu goleiro titular para se afastar do Z4",
+      "updated": 20180713125946,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/juventude-conta-com-o-retorno-de-seu-goleiro-titular-para-se-afastar-do-z4.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/juventude-conta-com-o-retorno-de-seu-goleiro-titular-para-se-afastar-do-z4.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Neymar deseja sorte aos 'amigos' Rakitic e Mbappé na final da Copa",
+      "updated": 20180713125628,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/neymar-deseja-sorte-aos-amigos-rakitic-e-mbappe-na-final-da-copa.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/neymar-deseja-sorte-aos-amigos-rakitic-e-mbappe-na-final-da-copa.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Manchester United anuncia formação de equipe de futebol feminino",
+      "updated": 20180713125620,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/manchester-united-anuncia-formacao-de-equipe-de-futebol-feminino.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/manchester-united-anuncia-formacao-de-equipe-de-futebol-feminino.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Atacante do sub-20 reforça treino do Palmeiras após passagem pela Itália",
+      "updated": 20180713124243,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/atacante-do-sub-20-reforca-treino-do-palmeiras-apos-passagem-pela-italia.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/atacante-do-sub-20-reforca-treino-do-palmeiras-apos-passagem-pela-italia.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Bruno Peres faz seu primeiro treino com a camisa do São Paulo",
+      "updated": 20180713124016,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/bruno-peres-faz-seu-primeiro-treino-com-a-camisa-do-sao-paulo.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/bruno-peres-faz-seu-primeiro-treino-com-a-camisa-do-sao-paulo.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Bale quebra silêncio: 'Fiquei frustrado por ser reserva na Champions'",
+      "updated": 20180713123901,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/bale-quebra-silencio-fiquei-frustrado-por-ser-reserva-na-champions.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/bale-quebra-silencio-fiquei-frustrado-por-ser-reserva-na-champions.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Inter 'atravessa' América-MG e entra na briga por zagueiro do Palmeiras",
+      "thumb": "https://imguol.com/c/esporte/80/2018/05/16/diante-do-junior-barranquilla-o-zagueiro-emerson-santos-estreou-como-titular-do-palmeiras-1526520864124_142x100.jpg",
+      "updated": 20180713123733,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/inter-atravessa-america-mg-e-entra-na-briga-por-zagueiro-do-palmeiras.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/inter-atravessa-america-mg-e-entra-na-briga-por-zagueiro-do-palmeiras.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Ex-Grêmio, atacante brasileiro troca o Kashima Antlers por clube chinês",
+      "updated": 20180713123703,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/ex-gremio-atacante-brasileiro-troca-o-kashima-antlers-por-clube-chines.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/ex-gremio-atacante-brasileiro-troca-o-kashima-antlers-por-clube-chines.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Pottker marca três gols e Inter vence último teste da intertemporada",
+      "thumb": "https://imguol.com/c/esporte/05/2018/03/05/atacante-william-pottker-durante-treinamento-do-inter-ele-e-duvida-para-o-gre-nal-1520272269185_142x100.jpg",
+      "updated": 20180713123546,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/pottker-marca-tres-gols-e-inter-vence-ultimo-teste-da-intertemporada.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/pottker-marca-tres-gols-e-inter-vence-ultimo-teste-da-intertemporada.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Recém-contratado pelo SP, Bruno Peres treina no campo pela primeira vez",
+      "thumb": "https://imguol.com/c/esporte/54/2018/07/13/bruno-peres-1531493835584_142x100.jpg",
+      "updated": 20180713123425,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/recem-contratado-pelo-sp-bruno-peres-treina-no-campo-pela-primeira-vez.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/recem-contratado-pelo-sp-bruno-peres-treina-no-campo-pela-primeira-vez.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Southgate:'Bélgica é um teste. Ainda não vencemos uma seleção de ponta'",
+      "updated": 20180713123231,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/southgatebelgica-e-um-teste-ainda-nao-vencemos-uma-selecao-de-ponta.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/southgatebelgica-e-um-teste-ainda-nao-vencemos-uma-selecao-de-ponta.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Leilão de instituto de Neymar terá joia entregue por Larissa Manoela",
+      "thumb": "https://imguol.com/03/2017/06/23/com-penteado-novo-e-escondendo-as-maos-neymar-comparece-ao-leilao-do-instituto-neymar-em-sao-paulo-1498223231826_142x100.jpg",
+      "updated": 20180713122844,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/leilao-de-instituto-de-neymar-tera-700-famosos-e-jantar-com-larissa-manoela.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/leilao-de-instituto-de-neymar-tera-700-famosos-e-jantar-com-larissa-manoela.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "De olho na artilharia, brasileiro fala do bom momento no futebol tailandês",
+      "updated": 20180713122334,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/de-olho-na-artilharia-brasileiro-fala-do-bom-momento-no-futebol-tailandes.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/de-olho-na-artilharia-brasileiro-fala-do-bom-momento-no-futebol-tailandes.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Scarpa toca hino do Palmeiras na guitarra para celebrar Dia do Rock",
+      "thumb": "https://imguol.com/c/esporte/a2/2018/03/11/gustavo-scarpa-marcou-duas-vezes-na-vitoria-do-palmeiras-sobre-o-ituano-1520810555177_142x100.jpg",
+      "updated": 20180713120932,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/scarpa-toca-hino-do-palmeiras-na-guitarra-para-celebrar-o-dia-do-rock.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/scarpa-toca-hino-do-palmeiras-na-guitarra-para-celebrar-o-dia-do-rock.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Ex-Flamengo se vê mais pronto para a Europa e quer triunfar na Grécia",
+      "updated": 20180713120550,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/ex-flamengo-se-ve-mais-pronto-para-a-europa-e-quer-triunfar-na-grecia.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/ex-flamengo-se-ve-mais-pronto-para-a-europa-e-quer-triunfar-na-grecia.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Após chegar ao Al-Hazem, Muralha espera fazer grande temporada",
+      "updated": 20180713120010,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/apos-chegar-ao-al-hazem-muralha-espera-fazer-grande-temporada.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/apos-chegar-ao-al-hazem-muralha-espera-fazer-grande-temporada.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Inglaterra muda para buscar o terceiro lugar contra a Bélgica",
+      "updated": 20180713114243,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/inglaterra-muda-para-buscar-o-terceiro-lugar-contra-a-belgica.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/inglaterra-muda-para-buscar-o-terceiro-lugar-contra-a-belgica.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Ainda longe da equipe, Régis volta treinar no CT do São Paulo",
+      "thumb": "https://imguol.com/c/esporte/14/2018/03/15/regis-sao-paulo-1521141228696_142x100.jpg",
+      "updated": 20180713114147,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/ainda-longe-da-equipe-regis-volta-treinar-no-ct-do-sao-paulo.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/ainda-longe-da-equipe-regis-volta-treinar-no-ct-do-sao-paulo.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Nas casas de apostas, Bélgica é favorita para ficar em terceiro",
+      "updated": 20180713114125,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/nas-casas-de-apostas-belgica-e-favorita-para-ficar-em-terceiro.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/nas-casas-de-apostas-belgica-e-favorita-para-ficar-em-terceiro.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Parte final de preparação precisa ser 'intensa', analisa Willian Farias",
+      "updated": 20180713113601,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/parte-final-de-preparacao-precisa-ser-intensa-analisa-willian-farias.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/parte-final-de-preparacao-precisa-ser-intensa-analisa-willian-farias.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Lenglet é apresentado no Barça: 'É uma honra poder vestir esta camisa'",
+      "updated": 20180713112645,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/lenglet-e-apresentado-no-barca-e-uma-honra-poder-vestir-esta-camisa.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/lenglet-e-apresentado-no-barca-e-uma-honra-poder-vestir-esta-camisa.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Lateral Régis volta a trabalhar no São Paulo após ter contrato suspenso",
+      "updated": 20180713112231,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/lateral-regis-volta-a-trabalhar-no-sao-paulo-apos-ter-contrato-suspenso.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/lateral-regis-volta-a-trabalhar-no-sao-paulo-apos-ter-contrato-suspenso.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Bale confessa frustração por começar final da Champions na reserva",
+      "thumb": "https://imguol.com/c/esporte/cf/2017/09/09/gareth-bale-entrou-no-segundo-tempo-no-jogo-entre-real-madrid-e-levante-1504961171688_142x100.jpg",
+      "updated": 20180713110819,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/bale-confessa-frustracao-por-comecar-final-da-champions-na-reserva.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/bale-confessa-frustracao-por-comecar-final-da-champions-na-reserva.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Messi volta a Barcelona após eliminação na Copa e férias no Caribe",
+      "thumb": "https://imguol.com/c/esporte/df/2018/07/13/messi-volta-a-barcelona-apos-eliminacao-na-copa-e-ferias-no-caribe-1531488668446_142x100.jpg",
+      "updated": 20180713103837,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/messi-volta-a-barcelona-apos-eliminacao-na-copa-e-ferias-no-caribe.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/messi-volta-a-barcelona-apos-eliminacao-na-copa-e-ferias-no-caribe.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Crise política, excursão 'zerada' no México e reforço internacional: o Santos na parada da Copa",
+      "updated": 20180713102716,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/crise-politica-excursao-zerada-no-mexico-e-reforco-internacional-o-santos-na-parada-da-copa.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/crise-politica-excursao-zerada-no-mexico-e-reforco-internacional-o-santos-na-parada-da-copa.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "O Vasco na parada da Copa: crise política e reformulação no elenco",
+      "updated": 20180713101415,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/o-vasco-na-parada-da-copa-crise-politica-e-reformulacao-no-elenco.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/o-vasco-na-parada-da-copa-crise-politica-e-reformulacao-no-elenco.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Palmeiras vê 'ganho triplo' ao segurar Dudu, tirar Guedes de rival e lucrar",
+      "thumb": "https://imguol.com/c/esporte/43/2018/06/02/dudu-comemora-o-terceiro-gol-do-palmeiras-diante-do-sao-paulo-1527992595757_142x100.jpg",
+      "updated": 20180713101105,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/palmeiras-ve-ganho-triplo-ao-segurar-dudu-tirar-guedes-de-rival-e-lucrar.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/palmeiras-ve-ganho-triplo-ao-segurar-dudu-tirar-guedes-de-rival-e-lucrar.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Chelsea oficializa demissão do treinador Antonio Conte",
+      "updated": 20180713100220,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/chelsea-oficializa-demissao-do-treinador-antonio-conte.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/chelsea-oficializa-demissao-do-treinador-antonio-conte.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Guerrero é parado em blitz da Lei Seca e não poderá dirigir por um ano",
+      "thumb": "https://imguol.com/c/esporte/8b/2017/07/30/paolo-guerrero-do-flamengo-lamenta-oportunidade-desperdicada-durante-jogo-contra-o-corinthians-1501444034723_142x100.jpg",
+      "updated": 20180713095320,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/guerrero-e-parado-em-blitz-da-lei-seca-e-nao-podera-dirigir-por-um-ano.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/guerrero-e-parado-em-blitz-da-lei-seca-e-nao-podera-dirigir-por-um-ano.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Will Smith fala da amizade com Neymar e defende o jogador",
+      "updated": 20180713094726,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/will-smith-fala-da-amizade-com-neymar-e-defende-o-jogador.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/will-smith-fala-da-amizade-com-neymar-e-defende-o-jogador.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Técnico do Real quer brasileiro que foi à Copa pela Espanha, diz jornal",
+      "thumb": "https://imguol.com/c/copadomundo/2018/Imagem/02/2017/11/15/rodrigo-moreno-durante-treino-da-selecao-da-espanha-1510783197129_v2_142x100.jpg",
+      "updated": 20180713084135,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/tecnico-do-real-quer-brasileiro-que-foi-a-copa-pela-espanha-diz-jornal.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/tecnico-do-real-quer-brasileiro-que-foi-a-copa-pela-espanha-diz-jornal.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Inglaterra terá Delph na disputa pelo terceiro lugar contra a Bélgica",
+      "updated": 20180713082657,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/inglaterra-tera-delph-na-disputa-pelo-terceiro-lugar-contra-a-belgica.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/inglaterra-tera-delph-na-disputa-pelo-terceiro-lugar-contra-a-belgica.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Confiante, Everton Ribeiro projeta 'futebol melhor' do Fla após a Copa",
+      "updated": 20180713080000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/confiante-everton-ribeiro-projeta-futebol-melhor-do-fla-apos-a-copa.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/confiante-everton-ribeiro-projeta-futebol-melhor-do-fla-apos-a-copa.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Zidane abriu mão de R$ 108 milhões em salários ao deixar o Real, diz jornal",
+      "thumb": "https://imguol.com/c/esporte/f3/2018/05/19/zinedine-zidane-observa-time-do-real-madrid-contra-o-villarreal-1526761523422_142x100.jpg",
+      "updated": 20180713075621,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/zidane-abriu-mao-de-r-108-milhoes-em-salarios-ao-deixar-o-real-diz-jornal.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/zidane-abriu-mao-de-r-108-milhoes-em-salarios-ao-deixar-o-real-diz-jornal.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Aguirre e Kieza juntos e Valencia por dentro: o Bota pré-estreia de Paquetá",
+      "updated": 20180713070500,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/aguirre-e-kieza-juntos-e-valencia-por-dentro-o-bota-pre-estreia-de-paqueta.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/aguirre-e-kieza-juntos-e-valencia-por-dentro-o-bota-pre-estreia-de-paqueta.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Reforço dos sonhos chega, mas Jair terá de esperar para tê-lo no Santos",
+      "updated": 20180713070000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/reforco-dos-sonhos-chega-mas-jair-tera-de-esperar-para-te-lo-no-santos.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/reforco-dos-sonhos-chega-mas-jair-tera-de-esperar-para-te-lo-no-santos.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Invicto nos amistosos, dois reforços e saídas: o Corinthians na parada",
+      "updated": 20180713070000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/invicto-nos-amistosos-dois-reforcos-e-saidas-o-corinthians-na-parada.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/invicto-nos-amistosos-dois-reforcos-e-saidas-o-corinthians-na-parada.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Palmeiras leva cerca de R$ 50 mi além do previsto com Jesus, Mina e Guedes",
+      "thumb": "https://imguol.com/c/esporte/a8/2017/01/31/gabriel-jesus-comemora-gol-do-palmeiras-1485900646942_142x100.jpg",
+      "updated": 20180713070000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/verdao-leva-cerca-de-r-50-mi-alem-do-previsto-com-jesus-mina-e-guedes.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/verdao-leva-cerca-de-r-50-mi-alem-do-previsto-com-jesus-mina-e-guedes.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Na base do 'quanto mais difícil, melhor', Croácia forja espírito da final",
+      "updated": 20180713070000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/na-base-do-quanto-mais-dificil-melhor-croacia-forja-espirito-da-final.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/na-base-do-quanto-mais-dificil-melhor-croacia-forja-espirito-da-final.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Infantino elogia, mas dá risada e fica constrangido ao falar de Neymar",
+      "updated": 20180713064941,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/infantino-elogia-mas-da-risada-e-fica-constrangido-ao-falar-de-neymar.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/infantino-elogia-mas-da-risada-e-fica-constrangido-ao-falar-de-neymar.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Presidente da Fifa diz: 'Foi a melhor Copa do Mundo de todos os tempos'",
+      "updated": 20180713062626,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/presidente-da-fifa-diz-foi-a-melhor-copa-do-mundo-de-todos-os-tempos.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/presidente-da-fifa-diz-foi-a-melhor-copa-do-mundo-de-todos-os-tempos.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "É ótimo ter o melhor do mundo, diz Matuidi sobre chegada de CR7 à Juventus",
+      "thumb": "https://imguol.com/c/esporte/da/2018/01/07/matuidi-jogador-da-juventus-1515327902697_142x100.jpg",
+      "updated": 20180713060737,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/e-otimo-ter-o-melhor-do-mundo-diz-matuidi-sobre-chegada-de-cr7-a-juventus.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/e-otimo-ter-o-melhor-do-mundo-diz-matuidi-sobre-chegada-de-cr7-a-juventus.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Orgulho intacto! Inglaterra não se abala e volta mais forte para casa",
+      "updated": 20180713060000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/orgulho-intacto-inglaterra-nao-se-abala-e-volta-mais-forte-para-casa.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/orgulho-intacto-inglaterra-nao-se-abala-e-volta-mais-forte-para-casa.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Inspirado em Zé Roberto, Nenê cogita encerrar carreira no São Paulo",
+      "updated": 20180713060000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/inspirado-em-ze-roberto-nene-cogita-encerrar-carreira-no-sao-paulo.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/inspirado-em-ze-roberto-nene-cogita-encerrar-carreira-no-sao-paulo.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Uma façanha no futebol consagrou Kanté. Agora, ele quer evitar outra",
+      "updated": 20180713050500,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/uma-facanha-no-futebol-consagrou-kante-agora-ele-quer-evitar-outra.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/13/uma-facanha-no-futebol-consagrou-kante-agora-ele-quer-evitar-outra.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Vontade de Maxi López de voltar à América do Sul aproxima atacante do Vasco",
+      "thumb": "https://imguol.com/c/esporte/83/2018/07/12/atacante-argentino-maxi-lopez-atuou-na-ultima-temporada-na-udinese-ita-1531436227201_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/vontade-de-lopez-em-voltar-a-america-do-sul-o-aproxima-do-vasco.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/vontade-de-lopez-em-voltar-a-america-do-sul-o-aproxima-do-vasco.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Abad abandona política e privilegia perfil técnico na gestão do Fluminense",
+      "thumb": "https://imguol.com/c/esporte/84/2018/07/12/pedro-abad-presidente-do-fluminense-1531421757323_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/abad-abandona-politica-e-privilegia-perfil-tecnico-na-gestao-do-flu.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/abad-abandona-politica-e-privilegia-perfil-tecnico-na-gestao-do-flu.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Botafogo faz mistério em jogo-treinos antes de voltar ao Brasileiro",
+      "thumb": "https://imguol.com/c/esporte/31/2018/06/27/novo-comandante-marcos-paqueta-comanda-primeiro-treino-pelo-botafogo-1530127046165_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/botafogo-faz-misterio-em-jogos-treinos-antes-de-voltar-ao-brasileiro.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/botafogo-faz-misterio-em-jogos-treinos-antes-de-voltar-ao-brasileiro.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Pesquisa, exemplo e grupo. Por que o Inter crê em boa conduta de Álvez",
+      "thumb": "https://imguol.com/c/esporte/4a/2017/09/20/jonatan-alvez-comemora-gol-do-barcelona-equ-contra-o-santos-na-vila-belmiro-1505961244946_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/pesquisa-exemplo-e-grupo-por-que-o-inter-cre-em-boa-conduta-de-alvez.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/pesquisa-exemplo-e-grupo-por-que-o-inter-cre-em-boa-conduta-de-alvez.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Fla efetiva técnico, aposta em jogos-treino e terá quatro mudanças no time",
+      "thumb": "https://imguol.com/c/esporte/fa/2018/06/29/agora-efetivado-o-tecnico-mauricio-barbieri-comanda-o-flamengo-ha-tres-meses-1530279177597_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/fla-efetiva-tecnico-aposta-em-jogos-treino-e-tera-quatro-mudancas-no-time.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/fla-efetiva-tecnico-aposta-em-jogos-treino-e-tera-quatro-mudancas-no-time.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Cruzeiro pede, e parceiro reinvestirá 50% do lucro em venda de Arrascaeta",
+      "thumb": "https://imguol.com/c/esporte/ef/2018/04/26/de-arrascaeta-comemora-gol-do-cruzeiro-diante-da-universidad-de-chile-1524789380506_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/cruzeiro-pede-e-parceiro-reinvestira-50-do-lucro-em-venda-de-arrascaeta.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/cruzeiro-pede-e-parceiro-reinvestira-50-do-lucro-em-venda-de-arrascaeta.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Grêmio usa recesso para 'carregar bateria' e deixa ajustes para depois",
+      "thumb": "https://imguol.com/c/esporte/b4/2018/07/10/renato-gaucho-observa-treino-do-gremio-1531263526790_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/gremio-usa-recesso-para-carregar-bateria-e-deixa-ajustes-para-depois.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/gremio-usa-recesso-para-carregar-bateria-e-deixa-ajustes-para-depois.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Tempo de contrato e promessa do Monterrey deixam Santos animado por Sánchez",
+      "thumb": "https://imguol.com/c/copadomundo/2018/Imagem/ef/2018/06/20/carlos-sanchez-lamenta-apos-perder-boa-chance-para-o-uruguai-contra-a-arabia-saudita-1529512466938_v2_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/tempo-de-contrato-e-promessa-do-monterrey-deixam-santos-animado-por-sanchez.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/tempo-de-contrato-e-promessa-do-monterrey-deixam-santos-animado-por-sanchez.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Chineses fecharam Guedes por empréstimo em manobra para não pagar imposto",
+      "thumb": "https://imguol.com/c/esporte/85/2018/05/21/roger-guedes-em-acao-pelo-atletico-mg-1526929072654_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/chineses-fecharam-guedes-por-emprestimo-em-manobra-para-nao-pagar-imposto.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/chineses-fecharam-guedes-por-emprestimo-em-manobra-para-nao-pagar-imposto.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Valorizado, Nenê cogita até se aposentar no São Paulo após recusar proposta",
+      "thumb": "https://imguol.com/c/esporte/8e/2018/06/30/bruno-alves-e-nene-1530378907481_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/valorizado-nene-cogita-ate-se-aposentar-no-sao-paulo.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/valorizado-nene-cogita-ate-se-aposentar-no-sao-paulo.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Com atacantes machucados, Cruzeiro aceita pagar R$ 400 mil por mês a Barcos",
+      "thumb": "https://imguol.com/c/esporte/ba/2018/07/12/hernan-barcos-comemora-gol-da-ldu-contra-o-guabira-da-bolivia-pela-copa-sul-americana-1531418095857_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/com-atacantes-machucados-cruzeiro-aceita-pagar-r-400-mil-por-mes-a-barcos.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/com-atacantes-machucados-cruzeiro-aceita-pagar-r-400-mil-por-mes-a-barcos.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Patrocinador do SP não recebe compensação financeira com mudança em camisa",
+      "thumb": "https://imguol.com/c/esporte/d6/2018/07/12/jucilei-nene-e-diego-souza-apresentam-nova-camisa-do-sao-paulo-1531409759529_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/patrocinador-do-sp-nao-recebe-compensacao-financeira-com-mudanca-em-camisa.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/patrocinador-do-sp-nao-recebe-compensacao-financeira-com-mudanca-em-camisa.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Encurtado, elenco do Corinthians tem polivalência testada por Osmar Loss",
+      "thumb": "https://imguol.com/c/esporte/8f/2018/06/06/osmar-loss-acompanha-jogo-entre-corinthians-e-santos-1528335818965_142x100.jpg",
+      "updated": 20180713040000,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/encurtado-elenco-do-corinthians-tem-polivalencia-testada-por-osmar-loss.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/encurtado-elenco-do-corinthians-tem-polivalencia-testada-por-osmar-loss.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Com duas expulsões e gol nos acréscimos, Vila Nova bate Paysandu",
+      "updated": 20180712224552,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/com-duas-expulsoes-e-gol-nos-acrescimos-vila-nova-bate-paysandu.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/com-duas-expulsoes-e-gol-nos-acrescimos-vila-nova-bate-paysandu.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Jornal: CR7 não enfrentará Real Madrid em amistoso nos EUA, em agosto",
+      "thumb": "https://imguol.com/c/copadomundo/2018/Imagem/a4/2018/06/30/cristiano-ronaldo-na-partida-contra-o-uruguai-nas-oitavas-da-copa-1530387454472_v2_142x100.jpg",
+      "updated": 20180712220926,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/jornal-cr7-nao-enfrentara-real-madrid-em-amistoso-nos-eua-em-agosto.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/jornal-cr7-nao-enfrentara-real-madrid-em-amistoso-nos-eua-em-agosto.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Sem oportunidades com Mano, goleiro Lucão rescinde com Cruzeiro",
+      "updated": 20180712211138,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/sem-oportunidades-com-mano-goleiro-lucao-rescinde-com-cruzeiro.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/sem-oportunidades-com-mano-goleiro-lucao-rescinde-com-cruzeiro.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Dagoberto volta ao Londrina com derrota, gol e expulsão por bate-boca",
+      "thumb": "https://imguol.com/c/esporte/6e/2018/07/12/dagoberto-comemora-gol-contra-o-boa-esporte-em-sua-estreia-pelo-londrina-1531438962677_142x100.jpg",
+      "updated": 20180712203447,
+      "share-url": "https://esporte.uol.com.br/futebol/campeonatos/brasileiro/serie-b/ultimas-noticias/2018/07/12/dagoberto-volta-ao-londrina-com-derrota-gol-e-expulsao-por-bate-boca.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/campeonatos/brasileiro/serie-b/ultimas-noticias/2018/07/12/dagoberto-volta-ao-londrina-com-derrota-gol-e-expulsao-por-bate-boca.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Peruano Cueva é vendido a time russo e não joga mais pelo São Paulo",
+      "updated": 20180712202837,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/peruano-cueva-e-vendido-a-time-russo-e-nao-joga-mais-pelo-sao-paulo.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/peruano-cueva-e-vendido-a-time-russo-e-nao-joga-mais-pelo-sao-paulo.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Real Madrid envia representante a Santos para negociar por Neymar",
+      "updated": 20180712201722,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/real-madrid-envia-representante-a-santos-para-negociar-por-neymar.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/real-madrid-envia-representante-a-santos-para-negociar-por-neymar.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Thiago Mendes responde fãs e diz que voltaria para o São Paulo",
+      "thumb": "https://imguol.com/c/esporte/5e/2017/11/17/thiago-mendes-faz-gol-para-o-lille-no-campeonato-frances-1510958116994_142x100.jpg",
+      "updated": 20180712201206,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/thiago-mendes-responde-fas-e-diz-que-voltaria-para-o-sao-paulo.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/thiago-mendes-responde-fas-e-diz-que-voltaria-para-o-sao-paulo.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Após casos de assédio, Fifa pede a TVs que evitem 'torcedoras bonitas'",
+      "updated": 20180712201110,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/apos-casos-de-assedio-fifa-pede-a-tvs-que-evitem-torcedoras-bonitas.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/apos-casos-de-assedio-fifa-pede-a-tvs-que-evitem-torcedoras-bonitas.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "São Paulo acerta venda de Cueva para clube da Rússia por R$ 36 milhões",
+      "thumb": "https://imguol.com/c/esporte/a4/2018/02/15/cueva-comemora-apos-marcar-o-segundo-do-sao-paulo-contra-o-csa-1518745097773_142x100.jpg",
+      "updated": 20180712194500,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/sao-paulo-esta-perto-de-vender-cueva-para-clube-da-russia.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/sao-paulo-esta-perto-de-vender-cueva-para-clube-da-russia.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Verdão e Galo lucram mais que o esperado com Guedes; entenda a negociação",
+      "updated": 20180712193139,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/verdao-e-galo-lucram-mais-que-o-esperado-com-guedes-entenda-a-negociacao.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/verdao-e-galo-lucram-mais-que-o-esperado-com-guedes-entenda-a-negociacao.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Heberty é eleito pelo segundo mês o melhor jogador da Liga Tailandesa",
+      "updated": 20180712192233,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/heberty-e-eleito-pelo-segundo-mes-o-melhor-jogador-da-liga-tailandesa.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/heberty-e-eleito-pelo-segundo-mes-o-melhor-jogador-da-liga-tailandesa.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "CSA e Sampaio Corrêa protagonizam o duelo dos embalados no Rei Pelé",
+      "updated": 20180712191817,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/csa-e-sampaio-correa-protagonizam-o-duelo-dos-embalados-no-rei-pele.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/csa-e-sampaio-correa-protagonizam-o-duelo-dos-embalados-no-rei-pele.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Com treino até o anoitecer, Roger repete Palmeiras com três meias",
+      "updated": 20180712191813,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/com-treino-ate-o-anoitecer-roger-repete-palmeiras-com-tres-meias.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/com-treino-ate-o-anoitecer-roger-repete-palmeiras-com-tres-meias.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Barcelona tem interesse na contratação do volante Kanté, diz TV",
+      "thumb": "https://imguol.com/c/esporte/c1/2017/09/27/filipe-luis-tenta-acompanhar-kante-durante-a-partida-entre-atletico-de-madri-e-chelsea-1506544030072_142x100.jpg",
+      "updated": 20180712191211,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/barcelona-tem-interesse-na-contratacao-do-volante-ngolo-kante.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/barcelona-tem-interesse-na-contratacao-do-volante-ngolo-kante.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Preparador de goleiros lamenta saída de Jandrei e ressalta: 'Excepcional'",
+      "updated": 20180712190321,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/preparador-de-goleiros-lamenta-saida-de-jandrei-e-ressalta-excepcional.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/preparador-de-goleiros-lamenta-saida-de-jandrei-e-ressalta-excepcional.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Diogo Barbosa diz que ainda não jogou seu 'real futebol' no Palmeiras",
+      "updated": 20180712190231,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/diogo-barbosa-diz-que-ainda-nao-jogou-seu-real-futebol-no-palmeiras.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/diogo-barbosa-diz-que-ainda-nao-jogou-seu-real-futebol-no-palmeiras.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Jornal: CR7 terá que desembolsar quantia milionária antes de ir para a Juve",
+      "thumb": "https://imguol.com/c/esporte/28/2018/07/10/cristiano-ronaldo-real-madrid-1531251840552_142x100.jpg",
+      "updated": 20180712190206,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/cr7-tera-que-desembolsar-quantia-milionaria-antes-de-ir-para-a-juve.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/cr7-tera-que-desembolsar-quantia-milionaria-antes-de-ir-para-a-juve.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Arrascaeta e Raniel participam de atividades em campo",
+      "updated": 20180712185921,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/arrascaeta-e-raniel-participam-de-atividades-em-campo.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/arrascaeta-e-raniel-participam-de-atividades-em-campo.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Condição para Matias Antonini pode fechar com o Grêmio envolve equipe italiana",
+      "updated": 20180712185109,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/condicao-para-matias-antonini-pode-fechar-com-o-gremio-envolve-equipe-italiana.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/condicao-para-matias-antonini-pode-fechar-com-o-gremio-envolve-equipe-italiana.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Empresário de Jadson se reúne com o Corinthians e confia em renovação",
+      "updated": 20180712184606,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/empresario-de-jadson-se-reune-com-o-corinthians-e-confia-em-renovacao.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/empresario-de-jadson-se-reune-com-o-corinthians-e-confia-em-renovacao.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Em julgamento, Orinho é suspenso da partida contra o São Bento",
+      "updated": 20180712184459,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/em-julgamento-orinho-e-suspenso-da-partida-contra-o-sao-bento.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/em-julgamento-orinho-e-suspenso-da-partida-contra-o-sao-bento.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Afundados na zona de rebaixamento, Boa Esporte e CRB medem forças em Varginha",
+      "updated": 20180712184344,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/afundados-na-zona-de-rebaixamento-boa-esporte-e-crb-medem-forcas-em-varginha.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/afundados-na-zona-de-rebaixamento-boa-esporte-e-crb-medem-forcas-em-varginha.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Jovens decidem, e reservas do Bota vence jogo-treino marcado por confusão",
+      "thumb": "https://imguol.com/c/esporte/bd/2018/07/12/ezequiel-marcou-o-primeiro-gol-do-botafogo-no-jogo-treino-contra-nova-iguacu-1531432503934_142x100.jpg",
+      "updated": 20180712183802,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/pratas-da-casa-decidem-e-bota-vence-jogo-treino-encerrado-por-confusao.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/pratas-da-casa-decidem-e-bota-vence-jogo-treino-encerrado-por-confusao.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "MP diz que eleição no Corinthians não foi íntegra, segura e confiável",
+      "thumb": "https://imguol.com/c/esporte/40/2018/02/03/andres-sanchez-foi-eleito-para-ocupar-a-presidencia-do-corinthians-1517686978961_142x100.jpg",
+      "updated": 20180712183603,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/mp-diz-que-eleicao-no-corinthians-nao-foi-integra-segura-e-confiavel.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/mp-diz-que-eleicao-no-corinthians-nao-foi-integra-segura-e-confiavel.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Destaque na Copa com a Colômbia, Mina entra na mira do Everton",
+      "updated": 20180712182229,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/destaque-na-copa-com-a-colombia-mina-entra-na-mira-do-everton.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/destaque-na-copa-com-a-colombia-mina-entra-na-mira-do-everton.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Marcão é apresentado no Guarani e está confiante: 'Fazer minha história'",
+      "updated": 20180712181819,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/marcao-e-apresentado-no-guarani-e-esta-confiante-fazer-minha-historia.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/marcao-e-apresentado-no-guarani-e-esta-confiante-fazer-minha-historia.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Ramiro admite mudança no Grêmio sem Arthur: 'Temos que nos adaptar'",
+      "thumb": "https://imguol.com/c/esporte/17/2016/11/22/ramiro-participa-de-treinamento-do-gremio-antes-de-decisao-da-copa-do-brasil-1479822357316_142x100.jpg",
+      "updated": 20180712181651,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/ramiro-admite-mudanca-no-gremio-sem-arthur-temos-que-nos-adaptar.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/ramiro-admite-mudanca-no-gremio-sem-arthur-temos-que-nos-adaptar.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Em busca de dias melhores, Brasil de Pelotas e Juventude se enfrentam na Série B",
+      "updated": 20180712181310,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/em-busca-de-dias-melhores-brasil-de-pelotas-e-juventude-se-enfrentam-na-serie-b.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/em-busca-de-dias-melhores-brasil-de-pelotas-e-juventude-se-enfrentam-na-serie-b.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Besiktas não responde, Fla pausa 'novela Babel' e vai atrás de Plano B",
+      "thumb": "https://imguol.com/c/esporte/db/2018/07/03/ryan-babel-em-acao-durante-jogo-da-selecao-holandesa-contra-a-italia-1530637924394_142x100.jpg",
+      "updated": 20180712180546,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/besiktas-nao-responde-fla-pausa-novela-babel-e-vai-atras-de-plano-b.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/besiktas-nao-responde-fla-pausa-novela-babel-e-vai-atras-de-plano-b.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Xodó no Corinthians, Pedrinho vê marcação mais forte dos adversários",
+      "updated": 20180712180035,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/xodo-no-corinthians-pedrinho-ve-marcacao-mais-forte-dos-adversarios.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/xodo-no-corinthians-pedrinho-ve-marcacao-mais-forte-dos-adversarios.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Após deixar o Galo, Róger Guedes é vendido pelo Verdão a clube chinês",
+      "updated": 20180712175718,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/apos-deixar-o-galo-roger-guedes-e-vendido-pelo-verdao-a-clube-chines.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/12/apos-deixar-o-galo-roger-guedes-e-vendido-pelo-verdao-a-clube-chines.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    },
+    {
+      "type": "news",
+      "title": "Atlético-MG anuncia transferência de Róger Guedes para o Shandong Luneng",
+      "thumb": "https://imguol.com/c/esporte/85/2018/05/21/roger-guedes-em-acao-pelo-atletico-mg-1526929072654_142x100.jpg",
+      "updated": 20180712175644,
+      "share-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/atletico-mg-anuncia-transferencia-de-roger-guedes-para-o-shandong-luneng.htm",
+      "webview-url": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/atletico-mg-anuncia-transferencia-de-roger-guedes-para-o-shandong-luneng.htm?app=uol-placar-futebol&plataforma=iphone&template=v2"
+    }
+  ]
+}

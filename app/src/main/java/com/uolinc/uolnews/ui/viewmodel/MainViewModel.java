@@ -1,4 +1,4 @@
-package com.uolinc.uolnews.ui;
+package com.uolinc.uolnews.ui.viewmodel;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
