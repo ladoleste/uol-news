@@ -2,6 +2,7 @@ package com.uolinc.uolnews.ui;
 
 import android.annotation.SuppressLint;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 
 import com.uolinc.uolnews.R;
 import com.uolinc.uolnews.customtabs.CustomTabsHelper;
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
     private Toolbar toolbar;
     private ImageView ivNoConnection;
     private CustomTabsIntent customTabsIntent;
+    private ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
         rvList = findViewById(R.id.rv_list);
         vModel = ViewModelProviders.of(this).get(MainViewModel.class);
         ivNoConnection = findViewById(R.id.iv_no_connection);
+        progressBar = findViewById(R.id.progress_bar);
 
         Bitmap backArrow = Util.getBitmapFromVectorDrawable(R.drawable.ic_arrow_back_white, this);
 
@@ -72,14 +76,19 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
 
     private void handleError(Throwable t) {
         Log.e(TAG, t.getMessage(), t);
-        Snackbar.make(rootView, R.string.generic_error, Snackbar.LENGTH_LONG).setAction(R.string.retry, v -> vModel.loadList()).show();
+        Snackbar.make(rootView, R.string.generic_error, Snackbar.LENGTH_LONG).setAction(R.string.retry, v -> {
+            vModel.loadList();
+            progressBar.setVisibility(View.VISIBLE);
+        }).show();
         rvList.setVisibility(View.GONE);
+        progressBar.setVisibility(View.GONE);
         ivNoConnection.setVisibility(View.VISIBLE);
     }
 
     private void loadFeed(List<Feed> feeds) {
         rvList.setVisibility(View.VISIBLE);
         ivNoConnection.setVisibility(View.GONE);
+        progressBar.setVisibility(View.GONE);
 
         NewsAdapter newsAdapter = new NewsAdapter(feeds, this);
         rvList.setLayoutManager(new LinearLayoutManager(this));
@@ -103,6 +112,7 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
         int id = item.getItemId();
 
         if (id == R.id.action_reload) {
+            progressBar.setVisibility(View.VISIBLE);
             vModel.loadList();
             return true;
         }
@@ -117,7 +127,12 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
     }
 
     @Override
-    public void onItemClick(String webUrl) {
-        CustomTabsHelper.openCustomTab(this, customTabsIntent, Uri.parse(webUrl), null);
+    public void onItemClick(String webUrl, String shareUrl) {
+        CustomTabsHelper.openCustomTab(this, customTabsIntent, Uri.parse(webUrl), (context, uri) -> {
+            Intent intent = new Intent(MainActivity.this, WebviewFallback.class);
+            intent.putExtra("webUrl", uri.toString());
+            intent.putExtra("shareUrl", uri.toString());
+            startActivity(intent);
+        });
     }
 }

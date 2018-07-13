@@ -49,7 +49,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
 
         holder.tvTitle.setText(feed.getTitle());
         holder.tvUpdate.setText(format);
-        holder.itemView.setOnClickListener(v -> onItemClick.onItemClick(feed.getWebviewUrl()));
+        holder.itemView.setOnClickListener(v -> onItemClick.onItemClick(feed.getWebviewUrl(), feed.getShareUrl()));
         if (getItemViewType(position) == ITEM_WITH_IMAGE) {
             Glide.with(holder.itemView.getContext()).load(feed.getThumb()).into(holder.ivImage);
         }

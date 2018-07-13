@@ -21,6 +21,7 @@ import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 
 import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.hasDescendant;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
@@ -47,6 +48,8 @@ public class MainActivityTest {
         activityRule.launchActivity(new Intent());
         onView(withText(R.string.app_name)).check(matches(isDisplayed()));
         onView(new RecyclerViewMatcher(R.id.rv_list).atPosition(0)).check(matches(hasDescendant(withText("Jogador de futebol larga carreira e vira spec na UOL"))));
+        onView(new RecyclerViewMatcher(R.id.rv_list).atPosition(0)).check(matches(hasDescendant(withText("13/07, às 03h12"))));
+        onView(new RecyclerViewMatcher(R.id.rv_list).atPosition(0)).perform(click());
     }
 
     private void init() throws IOException {
