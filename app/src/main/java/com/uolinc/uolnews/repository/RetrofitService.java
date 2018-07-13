@@ -1,4 +1,6 @@
-package com.uolinc.uolnews;
+package com.uolinc.uolnews.repository;
+
+import com.uolinc.uolnews.dto.FeedResponse;
 
 import io.reactivex.Single;
 import retrofit2.http.GET;

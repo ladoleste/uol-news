@@ -1,4 +1,4 @@
-package com.uolinc.uolnews;
+package com.uolinc.uolnews.dto;
 
 import com.google.gson.annotations.SerializedName;
 

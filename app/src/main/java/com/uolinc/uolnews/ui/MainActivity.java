@@ -1,4 +1,4 @@
-package com.uolinc.uolnews;
+package com.uolinc.uolnews.ui;
 
 import android.annotation.SuppressLint;
 import android.arch.lifecycle.ViewModelProviders;
@@ -16,8 +16,12 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 
+import com.uolinc.uolnews.R;
 import com.uolinc.uolnews.customtabs.CustomTabsHelper;
+import com.uolinc.uolnews.dto.Feed;
+import com.uolinc.uolnews.global.Util;
 
 import java.util.List;
 
@@ -28,9 +32,8 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
     private View rootView;
     private RecyclerView rvList;
     private Toolbar toolbar;
-
+    private ImageView ivNoConnection;
     private CustomTabsIntent customTabsIntent;
-//    private CustomTabsHelper customTabsHelper = new CustomTabsHelper();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
         rootView = findViewById(R.id.root_view);
         rvList = findViewById(R.id.rv_list);
         vModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        ivNoConnection = findViewById(R.id.iv_no_connection);
 
         Bitmap backArrow = Util.getBitmapFromVectorDrawable(R.drawable.ic_arrow_back_white, this);
 
@@ -65,10 +69,15 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
 
     private void handleError(Throwable t) {
         Log.e("UOLNews", t.getMessage(), t);
-        Snackbar.make(rootView, R.string.generic_error, Snackbar.LENGTH_LONG).setAction(R.string.retry, null).show();
+        Snackbar.make(rootView, R.string.generic_error, Snackbar.LENGTH_LONG).setAction(R.string.retry, v -> vModel.loadList()).show();
+        rvList.setVisibility(View.GONE);
+        ivNoConnection.setVisibility(View.VISIBLE);
     }
 
     private void loadFeed(List<Feed> feeds) {
+        rvList.setVisibility(View.VISIBLE);
+        ivNoConnection.setVisibility(View.GONE);
+
         NewsAdapter newsAdapter = new NewsAdapter(feeds, this);
         rvList.setLayoutManager(new LinearLayoutManager(this));
         rvList.setAdapter(newsAdapter);

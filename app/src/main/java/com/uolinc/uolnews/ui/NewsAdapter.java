@@ -1,4 +1,4 @@
-package com.uolinc.uolnews;
+package com.uolinc.uolnews.ui;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.uolinc.uolnews.R;
+import com.uolinc.uolnews.dto.Feed;
 
 import java.text.SimpleDateFormat;
 import java.util.List;
@@ -18,6 +20,8 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
 
     private List<Feed> feeds;
     private ItemClick onItemClick;
+    private static final int SIMPLE_ITEM = 0;
+    private static final int ITEM_WITH_IMAGE = 1;
 
     NewsAdapter(List<Feed> feeds, ItemClick onItemClick) {
         this.feeds = feeds;
@@ -27,13 +31,13 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
     @NonNull
     @Override
     public NewsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(viewType == 0 ? R.layout.item_news : R.layout.item_news_with_image, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(viewType == SIMPLE_ITEM ? R.layout.item_news : R.layout.item_news_with_image, parent, false);
         return new NewsViewHolder(itemView);
     }
 
     @Override
     public int getItemViewType(int position) {
-        return feeds.get(position).getThumb() == null ? 0 : 1;
+        return feeds.get(position).getThumb() == null ? SIMPLE_ITEM : ITEM_WITH_IMAGE;
     }
 
     @Override
@@ -46,7 +50,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
         holder.tvTitle.setText(feed.getTitle());
         holder.tvUpdate.setText(format);
         holder.itemView.setOnClickListener(v -> onItemClick.onItemClick(feed.getWebviewUrl()));
-        if (getItemViewType(position) == 1) {
+        if (getItemViewType(position) == ITEM_WITH_IMAGE) {
             Glide.with(holder.itemView.getContext()).load(feed.getThumb()).into(holder.ivImage);
         }
     }

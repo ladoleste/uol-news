@@ -1,4 +1,4 @@
-package com.uolinc.uolnews;
+package com.uolinc.uolnews.global;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -1,10 +1,11 @@
-package com.uolinc.uolnews;
+package com.uolinc.uolnews.repository;
 
 import android.annotation.SuppressLint;
 import android.util.Log;
 
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializer;
+import com.uolinc.uolnews.BuildConfig;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,7 +23,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by Anderson on 11/07/2018.
  */
 @SuppressLint("LogNotTimber")
-class APIClient {
+public class APIClient {
 
     private static Retrofit retrofit = null;
 
