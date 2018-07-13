@@ -1,13 +1,17 @@
-package com.uolinc.uolnews;
+package com.uolinc.uolnews.tests;
 
 import android.content.Intent;
 import android.support.test.InstrumentationRegistry;
+import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Log;
 
+import com.uolinc.uolnews.R;
 import com.uolinc.uolnews.global.UolApplication;
 import com.uolinc.uolnews.ui.MainActivity;
+import com.uolinc.uolnews.util.RecyclerViewMatcher;
+import com.uolinc.uolnews.util.Util;
 
 import org.junit.FixMethodOrder;
 import org.junit.Rule;
@@ -46,7 +50,7 @@ public class MainActivityTest {
         init();
 
         activityRule.launchActivity(new Intent());
-        onView(withText(R.string.app_name)).check(matches(isDisplayed()));
+        onView(ViewMatchers.withText(R.string.app_name)).check(matches(isDisplayed()));
         onView(new RecyclerViewMatcher(R.id.rv_list).atPosition(0)).check(matches(hasDescendant(withText("Jogador de futebol larga carreira e vira spec na UOL"))));
         onView(new RecyclerViewMatcher(R.id.rv_list).atPosition(0)).check(matches(hasDescendant(withText("13/07, às 03h12"))));
         onView(new RecyclerViewMatcher(R.id.rv_list).atPosition(0)).perform(click());
