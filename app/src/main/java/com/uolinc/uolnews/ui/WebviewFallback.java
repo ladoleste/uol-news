@@ -6,23 +6,29 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 import com.uolinc.uolnews.R;
 
 public class WebviewFallback extends AppCompatActivity {
 
+    private WebView webView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview_fallback);
         setSupportActionBar(findViewById(R.id.toolbar));
+        //noinspection ConstantConditions
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         if (getIntent().getExtras() != null) {
-            WebView.class.cast(findViewById(R.id.webview)).loadUrl(getIntent().getExtras().getString("webUrl"));
+            webView = findViewById(R.id.webview);
+            webView.setWebViewClient(new Callback());
+            webView.loadUrl(getIntent().getExtras().getString("webUrl", ""));
         } else {
-            Toast.makeText(this, "Parametro não informado: url", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.error_parameter_not_found, Toast.LENGTH_SHORT).show();
             finish();
         }
     }
@@ -40,7 +46,9 @@ public class WebviewFallback extends AppCompatActivity {
         if (id == R.id.action_share) {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent.putExtra(Intent.EXTRA_TEXT, getIntent().getExtras().getString("shareUrl"));
+            if (getIntent().getExtras() != null) {
+                sendIntent.putExtra(Intent.EXTRA_TEXT, getIntent().getExtras().getString("shareUrl", ""));
+            }
             sendIntent.setType("text/plain");
             startActivity(sendIntent);
             return true;
@@ -49,5 +57,13 @@ public class WebviewFallback extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private class Callback extends WebViewClient {
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            return (false);
+        }
     }
 }
