@@ -1,4 +1,4 @@
-package com.uolinc.uolnews.util;
+package br.com.uol.uolnews.util;
 
 import android.content.res.Resources;
 import android.support.v7.widget.RecyclerView;

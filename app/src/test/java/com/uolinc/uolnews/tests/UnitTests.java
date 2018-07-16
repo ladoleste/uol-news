@@ -1,14 +1,6 @@
-package com.uolinc.uolnews.tests;
+package br.com.uol.uolnews.tests;
 
 import android.arch.core.executor.testing.InstantTaskExecutorRule;
-
-import com.uolinc.uolnews.dto.Feed;
-import com.uolinc.uolnews.dto.FeedResponse;
-import com.uolinc.uolnews.repository.Repository;
-import com.uolinc.uolnews.repository.RepositoryImpl;
-import com.uolinc.uolnews.repository.RetrofitService;
-import com.uolinc.uolnews.ui.viewmodel.MainViewModel;
-import com.uolinc.uolnews.util.Util;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -18,6 +10,13 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
+import br.com.uol.uolnews.dto.Feed;
+import br.com.uol.uolnews.dto.FeedResponse;
+import br.com.uol.uolnews.repository.Repository;
+import br.com.uol.uolnews.repository.RepositoryImpl;
+import br.com.uol.uolnews.repository.RetrofitService;
+import br.com.uol.uolnews.ui.viewmodel.MainViewModel;
+import br.com.uol.uolnews.util.Util;
 import io.reactivex.Single;
 
 import static junit.framework.Assert.assertEquals;

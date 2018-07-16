@@ -1,4 +1,4 @@
-package com.uolinc.uolnews.util;
+package br.com.uol.uolnews.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

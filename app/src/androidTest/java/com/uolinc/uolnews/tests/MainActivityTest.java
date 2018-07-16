@@ -1,4 +1,4 @@
-package com.uolinc.uolnews.tests;
+package br.com.uol.uolnews.tests;
 
 import android.content.Intent;
 import android.support.test.InstrumentationRegistry;
@@ -6,12 +6,6 @@ import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Log;
-
-import com.uolinc.uolnews.R;
-import com.uolinc.uolnews.global.UolApplication;
-import com.uolinc.uolnews.ui.MainActivity;
-import com.uolinc.uolnews.util.RecyclerViewMatcher;
-import com.uolinc.uolnews.util.Util;
 
 import org.junit.FixMethodOrder;
 import org.junit.Rule;
@@ -21,6 +15,11 @@ import org.junit.runners.MethodSorters;
 
 import java.io.IOException;
 
+import br.com.uol.uolnews.R;
+import br.com.uol.uolnews.global.UolApplication;
+import br.com.uol.uolnews.ui.MainActivity;
+import br.com.uol.uolnews.util.RecyclerViewMatcher;
+import br.com.uol.uolnews.util.Util;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 
