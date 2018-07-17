@@ -19,8 +19,6 @@ import br.com.uol.uolnews.dto.Feed;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder> {
 
-    private static final int SIMPLE_ITEM = 0;
-    private static final int ITEM_WITH_IMAGE = 1;
     private List<Feed> feeds;
     private ItemClick onItemClick;
 
@@ -32,13 +30,8 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
     @NonNull
     @Override
     public NewsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(viewType == SIMPLE_ITEM ? R.layout.item_news : R.layout.item_news_with_image, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_news, parent, false);
         return new NewsViewHolder(itemView);
-    }
-
-    @Override
-    public int getItemViewType(int position) {
-        return feeds.get(position).getThumb() == null ? SIMPLE_ITEM : ITEM_WITH_IMAGE;
     }
 
     @Override
@@ -51,8 +44,11 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
         holder.tvTitle.setText(feed.getTitle());
         holder.tvUpdate.setText(format);
         holder.itemView.setOnClickListener(v -> onItemClick.onItemClick(feed.getWebviewUrl(), feed.getShareUrl()));
-        if (getItemViewType(position) == ITEM_WITH_IMAGE) {
+        if (feed.getThumb() != null) {
+            holder.ivImage.setVisibility(View.VISIBLE);
             Glide.with(holder.itemView.getContext()).load(feed.getThumb()).into(holder.ivImage);
+        } else {
+            holder.ivImage.setVisibility(View.GONE);
         }
     }
 

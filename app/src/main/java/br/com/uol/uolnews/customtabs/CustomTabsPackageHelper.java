@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * An adaptation of the official sample
+ * An adaptation of the official sample by Anderson
  */
 @SuppressLint("LogNotTimber")
 final class CustomTabsPackageHelper {

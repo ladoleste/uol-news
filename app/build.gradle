@@ -12,9 +12,19 @@ android {
 
         buildConfigField "String", "API_URL", "\"http://app.servicos.uol.com.br/\""
     }
+
+    signingConfigs {
+        release {
+            storeFile file("release.keystore")
+            storePassword "123456"
+            keyAlias "uolnews"
+            keyPassword "123456"
+        }
+    }
+
     buildTypes {
         release {
-            minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

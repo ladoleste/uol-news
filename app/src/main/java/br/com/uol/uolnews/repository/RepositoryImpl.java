@@ -11,7 +11,7 @@ public class RepositoryImpl implements Repository {
     private RetrofitService api;
 
     public RepositoryImpl() {
-        this.api = APIClient.getClient().create(RetrofitService.class);
+        api = APIClient.getClient().create(RetrofitService.class);
     }
 
     public RepositoryImpl(RetrofitService api) {

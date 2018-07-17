@@ -12,7 +12,7 @@ import android.support.customtabs.CustomTabsServiceConnection;
 import android.support.customtabs.CustomTabsSession;
 
 /**
- * An adaptation of the official sample
+ * An adaptation of the official sample by Anderson
  */
 @SuppressWarnings("unused")
 public final class CustomTabsHelper {
@@ -53,13 +53,6 @@ public final class CustomTabsHelper {
             customTabsIntent.launchUrl(context, uri);
         }
     }
-
-//    public static void addKeepAliveExtra(final Context context, final Intent intent) {
-//        Intent keepAliveIntent = new Intent().setClassName(
-//                context.getPackageName(),
-//                KeepAliveService.class.getCanonicalName());
-//        intent.putExtra(EXTRA_CUSTOM_TABS_KEEP_ALIVE, keepAliveIntent);
-//    }
 
     /**
      * Unbinds the Activity from the Custom Tabs Service

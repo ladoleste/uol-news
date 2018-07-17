@@ -11,9 +11,10 @@ import android.widget.Toast;
 
 import br.com.uol.uolnews.R;
 
-public class WebviewFallback extends AppCompatActivity {
+public class WebViewFallback extends AppCompatActivity {
 
-    private WebView webView;
+    public static final String WEB_URL = "webUrl";
+    public static final String SHARE_URL = "shareUrl";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +25,9 @@ public class WebviewFallback extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         if (getIntent().getExtras() != null) {
-            webView = findViewById(R.id.webview);
-            webView.setWebViewClient(new Callback());
-            webView.loadUrl(getIntent().getExtras().getString("webUrl", ""));
+            WebView webView = findViewById(R.id.webview);
+            webView.setWebViewClient(new UolWebViewClient());
+            webView.loadUrl(getIntent().getExtras().getString(WEB_URL, ""));
         } else {
             Toast.makeText(this, R.string.error_parameter_not_found, Toast.LENGTH_SHORT).show();
             finish();
@@ -47,7 +48,7 @@ public class WebviewFallback extends AppCompatActivity {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
             if (getIntent().getExtras() != null) {
-                sendIntent.putExtra(Intent.EXTRA_TEXT, getIntent().getExtras().getString("shareUrl", ""));
+                sendIntent.putExtra(Intent.EXTRA_TEXT, getIntent().getExtras().getString(SHARE_URL, ""));
             }
             sendIntent.setType("text/plain");
             startActivity(sendIntent);
@@ -59,11 +60,11 @@ public class WebviewFallback extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private class Callback extends WebViewClient {
+    private class UolWebViewClient extends WebViewClient {
 
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            return (false);
+            return false;
         }
     }
 }

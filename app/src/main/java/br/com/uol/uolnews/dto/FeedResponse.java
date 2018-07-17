@@ -1,6 +1,5 @@
 package br.com.uol.uolnews.dto;
 
-import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
@@ -11,7 +10,6 @@ import java.util.List;
 public class FeedResponse {
 
     @SerializedName("feed")
-    @Expose
     private List<Feed> feed = null;
 
     public List<Feed> getFeed() {

@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
 
         NewsAdapter newsAdapter = new NewsAdapter(feeds, this);
         rvList.setLayoutManager(new LinearLayoutManager(this));
+        rvList.setHasFixedSize(true);
         rvList.setAdapter(newsAdapter);
     }
 
@@ -129,9 +130,9 @@ public class MainActivity extends AppCompatActivity implements ItemClick {
     @Override
     public void onItemClick(String webUrl, String shareUrl) {
         CustomTabsHelper.openCustomTab(this, customTabsIntent, Uri.parse(webUrl), (context, uri) -> {
-            Intent intent = new Intent(MainActivity.this, WebviewFallback.class);
-            intent.putExtra("webUrl", uri.toString());
-            intent.putExtra("shareUrl", uri.toString());
+            Intent intent = new Intent(MainActivity.this, WebViewFallback.class);
+            intent.putExtra(WebViewFallback.WEB_URL, uri.toString());
+            intent.putExtra(WebViewFallback.SHARE_URL, uri.toString());
             startActivity(intent);
         });
     }
